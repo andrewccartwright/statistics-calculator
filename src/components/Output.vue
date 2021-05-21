@@ -1,5 +1,10 @@
+<!--
+  Author: Andrew Hatch
+  Date: 04/12/2021
+ -->
+
 <template>
-  <div>
+  <div id="output" className="text-center mt-3">
     <table id="table">
       <thead>
         <tr v-if="summaryStats.length !== 0">
@@ -23,19 +28,11 @@
     props: {
       summaryStats: Array
     },
-    data() {
-      return {
-
-      }
-    },
-    methods: {
-      
-    }
   }
 </script>
 
 <style>
- #table {
+ #output {
    width: 60vw;
    margin-left: auto;
    margin-right: auto;

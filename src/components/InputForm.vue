@@ -1,12 +1,21 @@
+<!--
+  Author: Andrew Hatch
+  Date: 04/12/2021
+ -->
+
 <template>
   <div id="input-area">
     <h1 id="title">Statistics Calculator</h1>
     <form @submit.prevent="handleSubmit">
       <p>Please enter data in a comma-separated list.</p>
-      <textarea id="input-nums" type="text" v-model="data" @focus="clearError" @keypress="clearError"/>
-      <p class="error-message" v-if="error">❗Please enter a list of data</p>
-      <p class="error-message" v-if="invalidInput">❗Your input can only include numbers and commas</p>
-      <button id="submit-button" type="submit">Submit</button>
+      <div id="text-area" class="container">
+        <textarea id="input-nums" type="text" v-model="data" @focus="clearError" @keypress="clearError"/>
+        <p class="error-message" v-if="error">❗Please enter a list of data</p>
+        <p class="error-message" v-if="invalidInput">❗Your input can only include numbers and commas</p>
+        <div class="btn-holder mt-2">
+          <button id="submit-button" type="submit">Submit</button>
+        </div>
+      </div>
     </form>
   </div>
 </template>
@@ -27,6 +36,17 @@
         this.error = false;
         this.invalidInput = false;
       },
+      sortData() {
+        for(let i = 0; i < this.data.length; i++) {
+          for(let j = 0; j < this.data.length - 1 - i; j++) {
+            if(this.data[j+1] < this.data[j]) {
+              let temp = this.data[j];
+              this.data[j] = this.data[j+1];
+              this.data[j+1] = temp;
+            }
+          }
+        }
+      },
       handleSubmit() {
         if(this.data.length > 0) {
           while(/,$/.test(this.data)) {
@@ -36,16 +56,22 @@
             this.invalidInput = true;
             this.data = [];
           }
+          if(/(,){2,}/.test(this.data)) {
+            console.log('replace');
+            this.data = this.data.replace(/(,){2,}/, ",");
+          }
           this.computeSummaryStats(this.data);
           this.summaryStats = [];
         }
         else {
           this.error = true;
         }
+
       },
       computeSummaryStats() {
         this.data = this.data.split(',');
         this.data = this.data.map(val => parseInt(val));
+        this.sortData();
 
         this.summaryStats[0] = {"Count": this.data.length, id:0}
         this.summaryStats[1] = {"Minimum": this.findMin(this.data), id:1};
@@ -96,14 +122,16 @@
 </script>
 
 <style scoped>
-  #title {
-    font-family: serif;
-    font-weight: 300;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    flex-direction: column;
   }
 
-  #submit-button {
-    float: right;
-    margin-right: 30vw;
+  .container .button-holder {
+    display: flex;
+    justify-content: flex-end;
   }
 
   .error-message {
@@ -111,9 +139,15 @@
   }
 
   #input-nums {
-    width: 40vw;
+    width: 100vw;
     height: 20vh;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media (max-width: 800px) {
+    #input-nums {
+      width: 100vw;
+    }
   }
 </style>
