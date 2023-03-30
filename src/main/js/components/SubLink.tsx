@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const SubLink = (props: {type: string}) => {
-    const {type} = props;
+const SubLink = (props: {section: string, type: string}) => {
+    const {section, type} = props;
     const path = type.toLowerCase();
     return (
-        <Link to={`/distributions/${path}`} className="dist-links" >{type}</Link>
+        <Link to={`/${section}/${path}`} className="sub-links" >{type}</Link>
     )
 }
 

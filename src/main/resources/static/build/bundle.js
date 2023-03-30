@@ -4298,7 +4298,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#links {\n  line-height: 12vh;\n  width: 60vw;\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n  justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n  color: white;\n  text-decoration: none;\n}\n\n.navbar-section {\n  height: 12vh;\n  background-color: rgb(57, 174, 169);\n  color: white;\n}\n\n.form-item {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\nform {\n  width: 60vw;\n  margin-left: auto;\n  margin-right: auto;\n}\n\ntextarea {\n  height: 20vh;\n}\n\n.submit-btn {\n  background-color: rgb(57, 174, 169);\n  width: fit-content;\n  border: none;\n  color: white;\n  border-radius: 10px;\n  padding: 10px;\n  float: right;\n  position: relative;\n  margin-left: auto;\n  margin-top: 2vh;\n}", "",{"version":3,"sources":["webpack://./src/main/js/css/Navbar.scss","webpack://./src/main/js/css/Form.scss"],"names":[],"mappings":"AAGA;EACI,iBAJK;EAKL,WAAA;EACA,iBAAA;EACA,kBAAA;EACA,aAAA;EACA,8BAAA;ACFJ;;ADKA;EACI,YAAA;EACA,qBAAA;ACFJ;;ADMA;EACI,YAnBK;EAoBL,mCAnBe;EAoBf,YAAA;ACHJ;;AAdA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;AAiBJ;;AAdA;EACI,WAVS;EAWT,iBAAA;EACA,kBAAA;AAiBJ;;AAdA;EACI,YAAA;AAiBJ;;AAdA;EACI,mCDpBe;ECqBf,kBAAA;EACA,YAAA;EACA,YAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;EACA,iBAAA;EACA,eAAA;AAiBJ","sourcesContent":["$height: 12vh;\n$background-color: rgb(57,174,169);\n\n#links {\n    line-height: $height;\n    width: 60vw;\n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n    color: white;\n    text-decoration: none;\n\n}\n\n.navbar-section {\n    height: $height;\n    background-color: $background-color;\n    color: white;\n}","@use \"Navbar\";\n$form-width: 60vw;\n$submit-button-background: Navbar.$background-color;\n\n.form-item {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n\nform {\n    width: $form-width;\n    margin-left: auto;\n    margin-right: auto;\n}\n\ntextarea {\n    height: 20vh;\n}\n\n.submit-btn {\n    background-color: $submit-button-background;\n    width: fit-content;\n    border: none;\n    color: white;\n    border-radius: 10px;\n    padding: 10px;\n    float: right;\n    position: relative;\n    margin-left: auto;\n    margin-top: 2vh;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sub-links-section {\n  line-height: 6vh;\n  width: fit-content;\n}\n\n.sub-navbar {\n  background-color: rgb(140, 208, 205);\n}\n\na.sub-links, a.sub-links:hover {\n  color: #17252A;\n  text-decoration: none;\n  padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n  line-height: 12vh;\n  width: 60vw;\n}\n\n.links {\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n  justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n  color: white;\n  text-decoration: none;\n}\n\n.navbar-section {\n  height: 12vh;\n  background-color: rgb(57, 174, 169);\n  color: white;\n}\n\n.form-item {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\nform {\n  width: 60vw;\n  margin-left: auto;\n  margin-right: auto;\n}\n\ntextarea {\n  height: 20vh;\n}\n\n.submit-btn {\n  background-color: rgb(57, 174, 169);\n  width: fit-content;\n  border: none;\n  color: white;\n  border-radius: 10px;\n  padding: 10px;\n  float: right;\n  position: relative;\n  margin-left: auto;\n  margin-top: 2vh;\n}", "",{"version":3,"sources":["webpack://./src/main/js/css/Navbar.scss","webpack://./src/main/js/css/Form.scss"],"names":[],"mappings":"AAKA;EACI,gBAAA;EACA,kBAAA;ACJJ;;ADOA;EACI,oCAToB;ACKxB;;ADOA;EACI,cAZS;EAaT,qBAAA;EACA,wBAAA;ACJJ;;ADOA;EACI,iBArBK;EAsBL,WAAA;ACJJ;;ADOA;EAEI,iBAAA;EACA,kBAAA;EACA,aAAA;EACA,8BAAA;ACLJ;;ADQA;EACI,YAAA;EACA,qBAAA;ACLJ;;ADQA;EACI,YAvCK;EAwCL,mCAvCe;EAwCf,YAAA;ACLJ;;AAhCA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;AAmCJ;;AAhCA;EACI,WAVS;EAWT,iBAAA;EACA,kBAAA;AAmCJ;;AAhCA;EACI,YAAA;AAmCJ;;AAhCA;EACI,mCDpBe;ECqBf,kBAAA;EACA,YAAA;EACA,YAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;EACA,iBAAA;EACA,eAAA;AAmCJ","sourcesContent":["$height: 12vh;\n$background-color: rgb(57,174,169);\n$dist-background-color: rgb(140, 208, 205);\n$dist-color: #17252A;\n\n.sub-links-section {\n    line-height: calc($height / 2);\n    width: fit-content;\n}\n\n.sub-navbar {\n    background-color: $dist-background-color;\n}\n\na.sub-links, a.sub-links:hover {\n    color: $dist-color;\n    text-decoration: none;\n    padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n    line-height: $height;\n    width: 60vw;\n}\n\n.links {\n    \n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n    color: white;\n    text-decoration: none;\n}\n\n.navbar-section {\n    height: $height;\n    background-color: $background-color;\n    color: white;\n}","@use \"Navbar\";\n$form-width: 60vw;\n$submit-button-background: Navbar.$background-color;\n\n.form-item {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n\nform {\n    width: $form-width;\n    margin-left: auto;\n    margin-right: auto;\n}\n\ntextarea {\n    height: 20vh;\n}\n\n.submit-btn {\n    background-color: $submit-button-background;\n    width: fit-content;\n    border: none;\n    color: white;\n    border-radius: 10px;\n    padding: 10px;\n    float: right;\n    position: relative;\n    margin-left: auto;\n    margin-top: 2vh;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -4324,7 +4324,33 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#links {\n  line-height: 12vh;\n  width: 60vw;\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n  justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n  color: white;\n  text-decoration: none;\n}\n\n.navbar-section {\n  height: 12vh;\n  background-color: rgb(57, 174, 169);\n  color: white;\n}\n\n.main-section {\n  background-color: rgb(222, 242, 241);\n  color: rgb(23, 36, 42);\n  height: 88vh;\n  width: 100vw;\n}", "",{"version":3,"sources":["webpack://./src/main/js/css/Navbar.scss","webpack://./src/main/js/css/Home.scss","webpack://./src/main/js/css/App.scss"],"names":[],"mappings":"AAGA;EACI,iBAJK;EAKL,WAAA;EACA,iBAAA;EACA,kBAAA;EACA,aAAA;EACA,8BAAA;ACFJ;;ADKA;EACI,YAAA;EACA,qBAAA;ACFJ;;ADMA;EACI,YAnBK;EAoBL,mCAnBe;EAoBf,YAAA;ACHJ;;ACdA;EACI,oCAJc;EAKd,sBAJS;EAKT,YAAA;EACA,YAAA;ADiBJ","sourcesContent":["$height: 12vh;\n$background-color: rgb(57,174,169);\n\n#links {\n    line-height: $height;\n    width: 60vw;\n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n    color: white;\n    text-decoration: none;\n\n}\n\n.navbar-section {\n    height: $height;\n    background-color: $background-color;\n    color: white;\n}","#links {\n  line-height: 12vh;\n  width: 60vw;\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n  justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n  color: white;\n  text-decoration: none;\n}\n\n.navbar-section {\n  height: 12vh;\n  background-color: rgb(57, 174, 169);\n  color: white;\n}\n\n.main-section {\n  background-color: rgb(222, 242, 241);\n  color: rgb(23, 36, 42);\n  height: 88vh;\n  width: 100vw;\n}","@use 'Navbar';\n$main-background: rgb(222,242,241);\n$main-color: rgb(23,36,42);\n\n.main-section {\n    background-color: $main-background;\n    color: $main-color;\n    height: 100vh - Navbar.$height;\n    width: 100vw;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sub-links-section {\n  line-height: 6vh;\n  width: fit-content;\n}\n\n.sub-navbar {\n  background-color: rgb(140, 208, 205);\n}\n\na.sub-links, a.sub-links:hover {\n  color: #17252A;\n  text-decoration: none;\n  padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n  line-height: 12vh;\n  width: 60vw;\n}\n\n.links {\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n  justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n  color: white;\n  text-decoration: none;\n}\n\n.navbar-section {\n  height: 12vh;\n  background-color: rgb(57, 174, 169);\n  color: white;\n}\n\n.main-section {\n  background-color: rgb(222, 242, 241);\n  color: rgb(23, 36, 42);\n  height: 88vh;\n  width: 100vw;\n}", "",{"version":3,"sources":["webpack://./src/main/js/css/Navbar.scss","webpack://./src/main/js/css/Home.scss","webpack://./src/main/js/css/App.scss"],"names":[],"mappings":"AAKA;EACI,gBAAA;EACA,kBAAA;ACJJ;;ADOA;EACI,oCAToB;ACKxB;;ADOA;EACI,cAZS;EAaT,qBAAA;EACA,wBAAA;ACJJ;;ADOA;EACI,iBArBK;EAsBL,WAAA;ACJJ;;ADOA;EAEI,iBAAA;EACA,kBAAA;EACA,aAAA;EACA,8BAAA;ACLJ;;ADQA;EACI,YAAA;EACA,qBAAA;ACLJ;;ADQA;EACI,YAvCK;EAwCL,mCAvCe;EAwCf,YAAA;ACLJ;;AChCA;EACI,oCAJc;EAKd,sBAJS;EAKT,YAAA;EACA,YAAA;ADmCJ","sourcesContent":["$height: 12vh;\n$background-color: rgb(57,174,169);\n$dist-background-color: rgb(140, 208, 205);\n$dist-color: #17252A;\n\n.sub-links-section {\n    line-height: calc($height / 2);\n    width: fit-content;\n}\n\n.sub-navbar {\n    background-color: $dist-background-color;\n}\n\na.sub-links, a.sub-links:hover {\n    color: $dist-color;\n    text-decoration: none;\n    padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n    line-height: $height;\n    width: 60vw;\n}\n\n.links {\n    \n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n    color: white;\n    text-decoration: none;\n}\n\n.navbar-section {\n    height: $height;\n    background-color: $background-color;\n    color: white;\n}",".sub-links-section {\n  line-height: 6vh;\n  width: fit-content;\n}\n\n.sub-navbar {\n  background-color: rgb(140, 208, 205);\n}\n\na.sub-links, a.sub-links:hover {\n  color: #17252A;\n  text-decoration: none;\n  padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n  line-height: 12vh;\n  width: 60vw;\n}\n\n.links {\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n  justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n  color: white;\n  text-decoration: none;\n}\n\n.navbar-section {\n  height: 12vh;\n  background-color: rgb(57, 174, 169);\n  color: white;\n}\n\n.main-section {\n  background-color: rgb(222, 242, 241);\n  color: rgb(23, 36, 42);\n  height: 88vh;\n  width: 100vw;\n}","@use 'Navbar';\n$main-background: rgb(222,242,241);\n$main-color: rgb(23,36,42);\n\n.main-section {\n    background-color: $main-background;\n    color: $main-color;\n    height: 100vh - Navbar.$height;\n    width: 100vw;\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/css/SummaryStatsResults.scss":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/css/SummaryStatsResults.scss ***!
+  \*******************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".results-section {\n  width: 40vw;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 3vh;\n  background-color: white;\n  border: 1px solid black;\n}\n\n.keys-column {\n  text-align: left;\n}\n\n.values-column {\n  text-align: right;\n}", "",{"version":3,"sources":["webpack://./src/main/js/css/SummaryStatsResults.scss"],"names":[],"mappings":"AAEA;EACI,WAHI;EAIJ,iBAAA;EACA,kBAAA;EACA,eAAA;EACA,uBAAA;EACA,uBAAA;AADJ;;AAIA;EACI,gBAAA;AADJ;;AAIA;EACI,iBAAA;AADJ","sourcesContent":["$width: 40vw;\n\n.results-section {\n    width: $width;\n    margin-left: auto;\n    margin-right: auto;\n    margin-top: 3vh;\n    background-color: white;\n    border: 1px solid black;\n}\n\n.keys-column {\n    text-align: left;\n}\n\n.values-column {\n    text-align: right;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40626,6 +40652,60 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/main/js/css/SummaryStatsResults.scss":
+/*!**************************************************!*\
+  !*** ./src/main/js/css/SummaryStatsResults.scss ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./SummaryStatsResults.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/css/SummaryStatsResults.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -40934,6 +41014,27 @@ var App = function () {
 
 /***/ }),
 
+/***/ "./src/main/js/components/Form.tsx":
+/*!*****************************************!*\
+  !*** ./src/main/js/components/Form.tsx ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var Form = function () {
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", null));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Form);
+
+
+/***/ }),
+
 /***/ "./src/main/js/components/Home.tsx":
 /*!*****************************************!*\
   !*** ./src/main/js/components/Home.tsx ***!
@@ -40975,13 +41076,114 @@ __webpack_require__.r(__webpack_exports__);
 
 var Navbar = function () {
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "navbar-section" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { id: "links" },
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "main-navbar links" },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: "/", className: "nav-links" }, "Home"),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: "/statistics", className: "nav-links" }, "Summary Statistics"),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: "/distributions", className: "nav-links" }, "Probability Distributions"),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: "/scores", className: "nav-links" }, "Scores"))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navbar);
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/SubLink.tsx":
+/*!********************************************!*\
+  !*** ./src/main/js/components/SubLink.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+
+
+var SubLink = function (props) {
+    var section = props.section, type = props.type;
+    var path = type.toLowerCase();
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: "/".concat(section, "/").concat(path), className: "sub-links" }, type));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SubLink);
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/SubNavbar.tsx":
+/*!**********************************************!*\
+  !*** ./src/main/js/components/SubNavbar.tsx ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SubLink__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SubLink */ "./src/main/js/components/SubLink.tsx");
+
+
+var SubNavbar = function (props) {
+    var section = props.section, types = props.types;
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "sub-navbar" },
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "sub-links-section links" }, types.map(function (type) {
+            return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubLink__WEBPACK_IMPORTED_MODULE_1__["default"], { section: section, type: type, key: type });
+        }))));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SubNavbar);
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/distributions/DistForm.tsx":
+/*!***********************************************************!*\
+  !*** ./src/main/js/components/distributions/DistForm.tsx ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Form */ "./src/main/js/components/Form.tsx");
+
+
+var DistForm = function () {
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Form__WEBPACK_IMPORTED_MODULE_1__["default"], null)));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DistForm);
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/distributions/DistNavbar.tsx":
+/*!*************************************************************!*\
+  !*** ./src/main/js/components/distributions/DistNavbar.tsx ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SubNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SubNavbar */ "./src/main/js/components/SubNavbar.tsx");
+
+
+var DistNavbar = function () {
+    var types = ["Binomial", "Exponential", "Geometric", "Normal", "Poisson", "Student's T"];
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { id: "dist-navbar" },
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { section: "distributions", types: types })));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DistNavbar);
 
 
 /***/ }),
@@ -40998,12 +41200,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
+/* harmony import */ var _DistNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DistNavbar */ "./src/main/js/components/distributions/DistNavbar.tsx");
+/* harmony import */ var _types_BinomialForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./types/BinomialForm */ "./src/main/js/components/distributions/types/BinomialForm.tsx");
+
+
+
 
 var Distributions = function () {
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "main-section" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Dist")));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], null),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Routes, null,
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Route, { path: "/binomial", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_types_BinomialForm__WEBPACK_IMPORTED_MODULE_2__["default"], null) }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Distributions);
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/distributions/types/BinomialForm.tsx":
+/*!*********************************************************************!*\
+  !*** ./src/main/js/components/distributions/types/BinomialForm.tsx ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _DistForm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../DistForm */ "./src/main/js/components/distributions/DistForm.tsx");
+
+
+var BinomialForm = function () {
+    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), binomial = _a[0], setBinomial = _a[1];
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistForm__WEBPACK_IMPORTED_MODULE_1__["default"], null)));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BinomialForm);
 
 
 /***/ }),
@@ -41020,12 +41255,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ScoresNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ScoresNavbar */ "./src/main/js/components/scores/ScoresNavbar.tsx");
+
 
 var Scores = function () {
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "main-section" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Scores")));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ScoresNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], null)));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Scores);
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/scores/ScoresNavbar.tsx":
+/*!********************************************************!*\
+  !*** ./src/main/js/components/scores/ScoresNavbar.tsx ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SubNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SubNavbar */ "./src/main/js/components/SubNavbar.tsx");
+
+
+var ScoresNavbar = function () {
+    var types = ["T Score", "Z Score"];
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { section: "scores", types: types })));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ScoresNavbar);
 
 
 /***/ }),
@@ -41143,19 +41405,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/SummaryStatsResults.scss */ "./src/main/js/css/SummaryStatsResults.scss");
+
 
 var SummaryStatsResults = function (props) {
     var summaryStats = props.summaryStats;
     console.log(summaryStats);
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("table", { className: "summary-stats-table" },
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("table", { className: "results-section" },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, Object.keys(summaryStats).map(function (key) {
                 return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", { key: key },
-                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null,
+                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", { className: "keys-column" },
                         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null,
                             key,
                             ":")),
-                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, Math.round(summaryStats[key] * 100) / 100));
+                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", { className: "values-column" }, Math.round(summaryStats[key] * 100) / 100));
             })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SummaryStatsResults);

@@ -5,21 +5,26 @@ $dist-color: #17252A;
 
 .sub-links-section {
     line-height: calc($height / 2);
-    width: 70vw;
+    width: fit-content;
 }
 
 .sub-navbar {
     background-color: $dist-background-color;
 }
 
-a.dist-links, a.dist-links:hover {
+a.sub-links, a.sub-links:hover {
     color: $dist-color;
     text-decoration: none;
+    padding: 0vw 3vw 0vw 3vw;
+}
+
+.main-navbar {
+    line-height: $height;
+    width: 60vw;
 }
 
 .links {
-    line-height: $height;
-    width: 60vw;
+    
     margin-left: auto;
     margin-right: auto;
     display: flex;

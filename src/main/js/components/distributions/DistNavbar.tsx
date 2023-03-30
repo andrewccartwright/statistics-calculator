@@ -7,7 +7,7 @@ const DistNavbar = () => {
 
     return (
         <div id="dist-navbar">
-            <SubNavbar types={types} />
+            <SubNavbar section={"distributions"} types={types} />
         </div>
     )
 }
