@@ -1,5 +1,6 @@
 import React from "react";
 import { SummaryStats } from "./SummaryStatsForm";
+import '../../css/SummaryStatsResults.scss';
 
 const SummaryStatsResults = (props: {summaryStats: SummaryStats}) => {
     const summaryStats = props.summaryStats;
@@ -7,13 +8,13 @@ const SummaryStatsResults = (props: {summaryStats: SummaryStats}) => {
 
     return (
         <div>
-            <table className="summary-stats-table">
+            <table className="results-section">
                 <tbody>
                     {
                         Object.keys(summaryStats).map((key) => {
                             return <tr key={key}>
-                                <td><strong>{key}:</strong></td>
-                                <td>{Math.round(summaryStats[key] * 100) / 100}</td>
+                                <td className="keys-column"><strong>{key}:</strong></td>
+                                <td className="values-column">{Math.round(summaryStats[key] * 100) / 100}</td>
                             </tr>
                         })
                     }

@@ -1,9 +1,10 @@
 import React from "react";
+import ScoresNavbar from "./ScoresNavbar";
 
 const Scores = () => {
     return (
         <div className="main-section">
-            <p>Scores</p>
+            <ScoresNavbar />
         </div>
     )
 }

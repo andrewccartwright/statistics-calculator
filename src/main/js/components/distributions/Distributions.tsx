@@ -1,9 +1,10 @@
 import React from "react";
+import DistNavbar from "./DistNavbar";
 
 const Distributions = () => {
     return (
         <div className="main-section">
-            <p>Dist</p>
+            <DistNavbar />
         </div>
     )
 }

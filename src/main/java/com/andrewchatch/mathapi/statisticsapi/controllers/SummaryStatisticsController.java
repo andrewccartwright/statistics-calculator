@@ -15,7 +15,6 @@ public class SummaryStatisticsController {
     @PostMapping("")
     public Map<String, Double> getSummaryStatistics(@RequestBody SummaryStatistics stats) {
         SummaryStatistics statistics = new SummaryStatistics(stats);
-        System.out.println(statistics.getNumbers());
         Map<String,Double> map = statistics.getSummaryStatistics();
         return map;
     }

@@ -1,7 +1,23 @@
 $height: 12vh;
 $background-color: rgb(57,174,169);
+$dist-background-color: rgb(140, 208, 205);
+$dist-color: #17252A;
 
-#links {
+.sub-links-section {
+    line-height: calc($height / 2);
+    width: 70vw;
+}
+
+.sub-navbar {
+    background-color: $dist-background-color;
+}
+
+a.dist-links, a.dist-links:hover {
+    color: $dist-color;
+    text-decoration: none;
+}
+
+.links {
     line-height: $height;
     width: 60vw;
     margin-left: auto;
@@ -13,7 +29,6 @@ $background-color: rgb(57,174,169);
 a.nav-links, a.nav-links:hover {
     color: white;
     text-decoration: none;
-
 }
 
 .navbar-section {
