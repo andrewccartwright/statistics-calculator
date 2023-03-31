@@ -1,6 +1,6 @@
 import React from "react";
 import { SummaryStats } from "./SummaryStatsForm";
-import '../../css/SummaryStatsResults.scss';
+import '../../css/Results.scss';
 
 const SummaryStatsResults = (props: {summaryStats: SummaryStats}) => {
     const summaryStats = props.summaryStats;

@@ -6,7 +6,7 @@ const ScoresNavbar = () => {
 
     return (
         <div>
-            <SubNavbar section={"scores"} types={types} />
+            <SubNavbar section={"scores"} types={types} setResults={null} />
         </div>
     )
 }
