@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import DistForm from "./DistForm";
 import DistResults from "./DistResults";
 
-const DistItem = (props: { defaultContent: any, path: string}) => {
-    const {defaultContent, path} = props;
-    const [content, setContent] = useState(defaultContent);
-    const [results, setResults] = useState();
+const DistItem = (props: { content: any, setContent: React.Dispatch<React.SetStateAction<any>>, results: any, setResults: React.Dispatch<React.SetStateAction<any>>, path: string}) => {
+    const {content, setContent, results, setResults, path} = props;
 
     return (
         <div>

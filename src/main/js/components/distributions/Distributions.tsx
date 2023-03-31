@@ -5,7 +5,12 @@ import { distArray } from "../util/DefaultValues";
 import DistItem from "./DistItem";
 
 const Distributions = () => {
-    const [array, setArray] = useState(distArray);
+    const [content, setContent] = useState<any>();
+    const [results, setResults] = useState<any>();
+
+    useEffect(() => {
+        console.log(location.hash);
+    });
 
     return (
         <div className="main-section">
@@ -13,8 +18,8 @@ const Distributions = () => {
 
             <Routes>
                 {
-                    array.map((distItem) => {
-                        return <Route key={distItem["path"]} path={distItem["path"]} element={<DistItem defaultContent={distItem['defaultValue']} path={distItem["path"]} />} />
+                    distArray.map((distItem) => {
+                        return <Route path={distItem["path"]} key={distItem["path"]} element={<DistItem content={distItem['defaultValue']} setContent={setContent} results={results} setResults={setResults} path={distItem["path"]} />} />
                     })
                 }
             </Routes>

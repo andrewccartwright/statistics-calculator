@@ -5,16 +5,21 @@ const Results = (props: { results: any}) => {
     
     return (
         <div>
-            {
-                <p>Results</p>
-                // Object.keys(results).map((key) => {
-                //     return (
-                //         <div key={key}>
-                //             {results[key]}
-                //         </div>
-                //     )
-                // })
-            }
+            <table className="results-section">
+                <tbody>
+                {
+                    Object.keys(results).map((key) => {
+                        return (
+                            <tr key={key}>
+                                <td><strong>{key}:</strong></td>
+                                <td>{Math.round(results[key] * 10000) / 10000}</td>
+                            </tr>
+                        )
+                    })
+                }
+                </tbody>
+            </table>
+            
         </div>
     )
 }

@@ -40999,15 +40999,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var router = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_6__.createHashRouter)((0,react_router_dom__WEBPACK_IMPORTED_MODULE_7__.createRoutesFromElements)(react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null) }),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "statistics/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_statistics_Statistics__WEBPACK_IMPORTED_MODULE_5__["default"], null) }),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "distributions/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_distributions_Distributions__WEBPACK_IMPORTED_MODULE_1__["default"], null) }),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "scores/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_scores_Scores__WEBPACK_IMPORTED_MODULE_4__["default"], null) }))));
 var App = function () {
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "text-center" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.HashRouter, null,
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null),
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Routes, null,
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null) }),
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/statistics/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_statistics_Statistics__WEBPACK_IMPORTED_MODULE_5__["default"], null) }),
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/distributions/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_distributions_Distributions__WEBPACK_IMPORTED_MODULE_1__["default"], null) }),
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/scores/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_scores_Scores__WEBPACK_IMPORTED_MODULE_4__["default"], null) })))));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Routes, null,
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/statistics/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_statistics_Statistics__WEBPACK_IMPORTED_MODULE_5__["default"], null) }),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/distributions/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_distributions_Distributions__WEBPACK_IMPORTED_MODULE_1__["default"], null) }),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/scores/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_scores_Scores__WEBPACK_IMPORTED_MODULE_4__["default"], null) }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
@@ -41029,6 +41032,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Form = function (props) {
     var content = props.content, handleSubmit = props.handleSubmit;
+    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(content), currentContent = _a[0], setCurrentContent = _a[1];
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", { onSubmit: handleSubmit, method: "post" },
         Object.keys(content).map(function (item) {
             if (item == "includesSuccess") {
@@ -41037,16 +41041,14 @@ var Form = function (props) {
                         "Select a value for ",
                         item,
                         ":"),
-                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", { name: "".concat(item, "-input"), type: "checkbox" }),
-                    content[item]));
+                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", { name: "".concat(item, "-input"), type: "checkbox" })));
             }
             return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { key: item, className: "form-item" },
                 react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", { htmlFor: "".concat(item, "-input"), className: "form-label" },
                     "Enter a value for ",
                     item,
                     ":"),
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", { name: "".concat(item, "-input"), type: "number", className: "form-input", min: 0, max: item == "p" ? 1 : null, step: ".01" }),
-                content[item]));
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", { name: "".concat(item, "-input"), type: "number", className: "form-input", min: 0, max: item == "p" ? 1 : null, step: ".01", required: true })));
         }),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { className: "btn btn-primary" }, "Submit")));
 };
@@ -41122,15 +41124,16 @@ __webpack_require__.r(__webpack_exports__);
 
 var Results = function (props) {
     var results = props.results;
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Results")
-    // Object.keys(results).map((key) => {
-    //     return (
-    //         <div key={key}>
-    //             {results[key]}
-    //         </div>
-    //     )
-    // })
-    ));
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("table", { className: "results-section" },
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, Object.keys(results).map(function (key) {
+                return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", { key: key },
+                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null,
+                        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null,
+                            key,
+                            ":")),
+                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, Math.round(results[key] * 10000) / 10000)));
+            })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Results);
 
@@ -41155,7 +41158,7 @@ __webpack_require__.r(__webpack_exports__);
 var SubLink = function (props) {
     var section = props.section, type = props.type;
     var path = type.toLowerCase();
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: "/".concat(section, "/").concat(path), className: "sub-links" }, type));
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: "/".concat(section, "/").concat(path), state: { path: path }, className: "sub-links" }, type));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SubLink);
 
@@ -41230,7 +41233,7 @@ var DistForm = function (props) {
         });
     };
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Form__WEBPACK_IMPORTED_MODULE_1__["default"], { content: content, handleSubmit: handleSubmit })));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Form__WEBPACK_IMPORTED_MODULE_1__["default"], { content: content, setContent: setContent, handleSubmit: handleSubmit })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DistForm);
 
@@ -41255,9 +41258,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var DistItem = function (props) {
-    var defaultContent = props.defaultContent, path = props.path;
-    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(defaultContent), content = _a[0], setContent = _a[1];
-    var _b = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), results = _b[0], setResults = _b[1];
+    var content = props.content, setContent = props.setContent, results = props.results, setResults = props.setResults, path = props.path;
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistForm__WEBPACK_IMPORTED_MODULE_1__["default"], { content: content, setContent: setContent, setResults: setResults, path: path }),
         results && react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistResults__WEBPACK_IMPORTED_MODULE_2__["default"], { results: results })));
@@ -41339,11 +41340,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Distributions = function () {
-    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(_util_DefaultValues__WEBPACK_IMPORTED_MODULE_2__.distArray), array = _a[0], setArray = _a[1];
+    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), content = _a[0], setContent = _a[1];
+    var _b = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), results = _b[0], setResults = _b[1];
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+        console.log(location.hash);
+    });
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "main-section" },
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], null),
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Routes, null, array.map(function (distItem) {
-            return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { key: distItem["path"], path: distItem["path"], element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistItem__WEBPACK_IMPORTED_MODULE_3__["default"], { defaultContent: distItem['defaultValue'], path: distItem["path"] }) });
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Routes, null, _util_DefaultValues__WEBPACK_IMPORTED_MODULE_2__.distArray.map(function (distItem) {
+            return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { path: distItem["path"], key: distItem["path"], element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistItem__WEBPACK_IMPORTED_MODULE_3__["default"], { content: distItem['defaultValue'], setContent: setContent, results: results, setResults: setResults, path: distItem["path"] }) });
         }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Distributions);
@@ -45899,12 +45904,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/App */ "./src/main/js/components/App.tsx");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
+
 
 
 
 
 var root = react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot(document.getElementById('react'));
-root.render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+var router = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_4__.createHashRouter)((0,react_router_dom__WEBPACK_IMPORTED_MODULE_5__.createRoutesFromElements)(react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, { path: "/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__["default"], null) }))));
+root.render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().StrictMode), null,
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.RouterProvider, { router: router })));
 
 })();
 
