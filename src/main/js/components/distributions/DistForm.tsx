@@ -24,7 +24,6 @@ const DistForm = (props: {content: any, setContent: React.Dispatch<React.SetStat
 
         axios.post(`/distributions${path}`, content)
             .then((res) => {
-                console.log(res);
                 setResults(res.data);
             })
             .catch((err) => {

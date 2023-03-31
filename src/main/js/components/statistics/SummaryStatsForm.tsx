@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { SyntheticEvent, useEffect, useState } from "react";
 import '../../css/Form.scss';
-import SummaryStatsResults from "./SummaryStatsResults";
+import Results from "../Results";
 
 type SummaryStats = {
     [index: string]: number,
@@ -83,7 +83,7 @@ const SummaryStatsForm = () => {
             </form>
 
             {
-                results && <SummaryStatsResults summaryStats={results} />
+                results && <Results results={results} />
             }
         </div>
     )

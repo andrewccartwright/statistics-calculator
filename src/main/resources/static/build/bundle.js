@@ -4331,10 +4331,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".sub-links-section {\n  line-height: 6
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/css/SummaryStatsResults.scss":
-/*!*******************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/css/SummaryStatsResults.scss ***!
-  \*******************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/css/Results.scss":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/css/Results.scss ***!
+  \*******************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -4350,7 +4350,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".results-section {\n  width: 40vw;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 3vh;\n  background-color: white;\n  border: 1px solid black;\n}\n\n.keys-column {\n  text-align: left;\n}\n\n.values-column {\n  text-align: right;\n}", "",{"version":3,"sources":["webpack://./src/main/js/css/SummaryStatsResults.scss"],"names":[],"mappings":"AAEA;EACI,WAHI;EAIJ,iBAAA;EACA,kBAAA;EACA,eAAA;EACA,uBAAA;EACA,uBAAA;AADJ;;AAIA;EACI,gBAAA;AADJ;;AAIA;EACI,iBAAA;AADJ","sourcesContent":["$width: 40vw;\n\n.results-section {\n    width: $width;\n    margin-left: auto;\n    margin-right: auto;\n    margin-top: 3vh;\n    background-color: white;\n    border: 1px solid black;\n}\n\n.keys-column {\n    text-align: left;\n}\n\n.values-column {\n    text-align: right;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".results-section {\n  width: 40vw;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 3vh;\n  background-color: white;\n  border: 1px solid black;\n}\n\n.keys-column {\n  text-align: left;\n}\n\n.values-column {\n  text-align: right;\n}", "",{"version":3,"sources":["webpack://./src/main/js/css/Results.scss"],"names":[],"mappings":"AAEA;EACI,WAHI;EAIJ,iBAAA;EACA,kBAAA;EACA,eAAA;EACA,uBAAA;EACA,uBAAA;AADJ;;AAIA;EACI,gBAAA;AADJ;;AAIA;EACI,iBAAA;AADJ","sourcesContent":["$width: 40vw;\n\n.results-section {\n    width: $width;\n    margin-left: auto;\n    margin-right: auto;\n    margin-top: 3vh;\n    background-color: white;\n    border: 1px solid black;\n}\n\n.keys-column {\n    text-align: left;\n}\n\n.values-column {\n    text-align: right;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40652,10 +40652,10 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./src/main/js/css/SummaryStatsResults.scss":
-/*!**************************************************!*\
-  !*** ./src/main/js/css/SummaryStatsResults.scss ***!
-  \**************************************************/
+/***/ "./src/main/js/css/Results.scss":
+/*!**************************************!*\
+  !*** ./src/main/js/css/Results.scss ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -40674,7 +40674,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./SummaryStatsResults.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/css/SummaryStatsResults.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Results_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./Results.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/css/Results.scss");
 
       
       
@@ -40696,12 +40696,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Results_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Results_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Results_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Results_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -41032,7 +41032,6 @@ __webpack_require__.r(__webpack_exports__);
 
 var Form = function (props) {
     var content = props.content, handleSubmit = props.handleSubmit;
-    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(content), currentContent = _a[0], setCurrentContent = _a[1];
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", { onSubmit: handleSubmit, method: "post" },
         Object.keys(content).map(function (item) {
             if (item == "includesSuccess") {
@@ -41121,6 +41120,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_Results_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/Results.scss */ "./src/main/js/css/Results.scss");
+
 
 var Results = function (props) {
     var results = props.results;
@@ -41128,11 +41129,11 @@ var Results = function (props) {
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("table", { className: "results-section" },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, Object.keys(results).map(function (key) {
                 return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", { key: key },
-                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null,
+                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", { className: "keys-column" },
                         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null,
                             key,
                             ":")),
-                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, Math.round(results[key] * 10000) / 10000)));
+                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", { className: "values-column" }, Math.round(results[key] * 10000) / 10000)));
             })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Results);
@@ -41156,9 +41157,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var SubLink = function (props) {
-    var section = props.section, type = props.type;
+    var section = props.section, type = props.type, setResults = props.setResults;
     var path = type.toLowerCase();
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: "/".concat(section, "/").concat(path), state: { path: path }, className: "sub-links" }, type));
+    var handleClick = function () {
+        var form = document.getElementsByTagName('form')[0];
+        var inputs = Array.from(form.getElementsByTagName('input'));
+        inputs.map(function (input) {
+            input.value = "";
+        });
+        setResults(null);
+    };
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: "/".concat(section, "/").concat(path), state: { path: path }, className: "sub-links", onClick: handleClick }, type));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SubLink);
 
@@ -41181,10 +41190,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var SubNavbar = function (props) {
-    var section = props.section, types = props.types;
+    var section = props.section, types = props.types, setResults = props.setResults;
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "sub-navbar" },
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "sub-links-section links" }, types.map(function (type) {
-            return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubLink__WEBPACK_IMPORTED_MODULE_1__["default"], { section: section, type: type, key: type });
+            return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubLink__WEBPACK_IMPORTED_MODULE_1__["default"], { section: section, type: type, key: type, setResults: setResults });
         }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SubNavbar);
@@ -41225,7 +41234,6 @@ var DistForm = function (props) {
         setContent(tempContent);
         axios__WEBPACK_IMPORTED_MODULE_2__["default"].post("/distributions".concat(path), content)
             .then(function (res) {
-            console.log(res);
             setResults(res.data);
         })
             .catch(function (err) {
@@ -41283,10 +41291,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SubNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SubNavbar */ "./src/main/js/components/SubNavbar.tsx");
 
 
-var DistNavbar = function () {
+var DistNavbar = function (props) {
     var types = ["Binomial", "Exponential", "Geometric", "Normal", "Poisson"];
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { id: "dist-navbar" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { section: "distributions", types: types })));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { section: "distributions", types: types, setResults: props.setResults })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DistNavbar);
 
@@ -41342,11 +41350,8 @@ __webpack_require__.r(__webpack_exports__);
 var Distributions = function () {
     var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), content = _a[0], setContent = _a[1];
     var _b = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), results = _b[0], setResults = _b[1];
-    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
-        console.log(location.hash);
-    });
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "main-section" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], null),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { setResults: setResults }),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Routes, null, _util_DefaultValues__WEBPACK_IMPORTED_MODULE_2__.distArray.map(function (distItem) {
             return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { path: distItem["path"], key: distItem["path"], element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistItem__WEBPACK_IMPORTED_MODULE_3__["default"], { content: distItem['defaultValue'], setContent: setContent, results: results, setResults: setResults, path: distItem["path"] }) });
         }))));
@@ -41398,7 +41403,7 @@ __webpack_require__.r(__webpack_exports__);
 var ScoresNavbar = function () {
     var types = ["T Score", "Z Score"];
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { section: "scores", types: types })));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { section: "scores", types: types, setResults: null })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ScoresNavbar);
 
@@ -41446,7 +41451,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _css_Form_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/Form.scss */ "./src/main/js/css/Form.scss");
-/* harmony import */ var _SummaryStatsResults__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SummaryStatsResults */ "./src/main/js/components/statistics/SummaryStatsResults.tsx");
+/* harmony import */ var _Results__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Results */ "./src/main/js/components/Results.tsx");
 
 
 
@@ -41499,43 +41504,9 @@ var SummaryStatsForm = function () {
                 react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", { htmlFor: "values-box" }, "Enter a comma-separated list of values"),
                 react__WEBPACK_IMPORTED_MODULE_0___default().createElement("textarea", { name: "values-box", id: 'values-box', onChange: handleChange, required: true }),
                 react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { className: "submit-btn" }, "Submit"))),
-        results && react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SummaryStatsResults__WEBPACK_IMPORTED_MODULE_2__["default"], { summaryStats: results })));
+        results && react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Results__WEBPACK_IMPORTED_MODULE_2__["default"], { results: results })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SummaryStatsForm);
-
-
-/***/ }),
-
-/***/ "./src/main/js/components/statistics/SummaryStatsResults.tsx":
-/*!*******************************************************************!*\
-  !*** ./src/main/js/components/statistics/SummaryStatsResults.tsx ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _css_SummaryStatsResults_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/SummaryStatsResults.scss */ "./src/main/js/css/SummaryStatsResults.scss");
-
-
-var SummaryStatsResults = function (props) {
-    var summaryStats = props.summaryStats;
-    console.log(summaryStats);
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("table", { className: "results-section" },
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, Object.keys(summaryStats).map(function (key) {
-                return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", { key: key },
-                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", { className: "keys-column" },
-                        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null,
-                            key,
-                            ":")),
-                    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", { className: "values-column" }, Math.round(summaryStats[key] * 100) / 100));
-            })))));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SummaryStatsResults);
 
 
 /***/ }),

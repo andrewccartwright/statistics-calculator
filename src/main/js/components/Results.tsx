@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/Results.scss';
 
 const Results = (props: { results: any}) => {
     const { results } = props;
@@ -11,8 +12,8 @@ const Results = (props: { results: any}) => {
                     Object.keys(results).map((key) => {
                         return (
                             <tr key={key}>
-                                <td><strong>{key}:</strong></td>
-                                <td>{Math.round(results[key] * 10000) / 10000}</td>
+                                <td className="keys-column"><strong>{key}:</strong></td>
+                                <td className="values-column">{Math.round(results[key] * 10000) / 10000}</td>
                             </tr>
                         )
                     })

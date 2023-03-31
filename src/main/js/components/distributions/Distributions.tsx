@@ -8,13 +8,9 @@ const Distributions = () => {
     const [content, setContent] = useState<any>();
     const [results, setResults] = useState<any>();
 
-    useEffect(() => {
-        console.log(location.hash);
-    });
-
     return (
         <div className="main-section">
-            <DistNavbar />
+            <DistNavbar setResults={setResults} />
 
             <Routes>
                 {

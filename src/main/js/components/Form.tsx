@@ -2,7 +2,6 @@ import React, { FormEventHandler, useEffect, useState } from "react";
 
 const Form = (props: {content: any, setContent: React.Dispatch<React.SetStateAction<any>>, handleSubmit: FormEventHandler<HTMLFormElement> }) => {
     const { content, handleSubmit } = props;
-    const [currentContent, setCurrentContent] = useState(content);
 
     return (
         <form onSubmit={handleSubmit} method="post">
