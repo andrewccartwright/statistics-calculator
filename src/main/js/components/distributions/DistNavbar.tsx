@@ -3,7 +3,7 @@ import SubLink from "../SubLink";
 import SubNavbar from "../SubNavbar";
 
 const DistNavbar = () => {
-    const types = ["Binomial", "Exponential", "Geometric", "Normal", "Poisson", "Student's T"]
+    const types = ["Binomial", "Exponential", "Geometric", "Normal", "Poisson"]
 
     return (
         <div id="dist-navbar">

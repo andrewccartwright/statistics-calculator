@@ -73,7 +73,7 @@ const SummaryStatsForm = () => {
         <div>
             <h1>Summary Stats</h1>
             <form onSubmit={handleSubmit}>
-                <div className="form-item">
+                <div className="stats-form-item">
                     <label htmlFor="values-box">Enter a comma-separated list of values</label>
                     <textarea name="values-box" id='values-box' onChange={handleChange} required />
 

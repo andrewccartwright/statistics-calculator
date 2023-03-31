@@ -1,38 +1,39 @@
-type Binomial = {
+interface Binomial {
     [index: string]: number,
     x: number,
     n: number,
     p: number
 }
 
-type Exponential = {
+interface Exponential {
     [index: string]: number,
     x: number,
     lambda: number
 }
 
-type Geometric = {
+interface Geometric {
     [index: string]: number | boolean,
     x: number,
     p: number,
     includesSuccess: boolean
 }
 
-type Normal = {
+interface Normal {
     [index: string]: number,
     x: number,
     popMean: number,
     popStDev: number
 }
 
-type Poisson = {
+interface Poisson {
     [index: string]: number,
     x: number,
     lambda: number
 }
 
-type T = {
+interface T {
     [index: string]: number,
+    sampleMean: number,
     popMean: number,
     sampleStDev: number,
     sampleSize: number,

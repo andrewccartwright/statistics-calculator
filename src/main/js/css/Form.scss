@@ -2,10 +2,26 @@
 $form-width: 60vw;
 $submit-button-background: Navbar.$background-color;
 
-.form-item {
+.stats-form-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 2vh;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh;
+}
+
+.form-label {
+    float: left;
+}
+
+.form-input {
+    float: right;
+    width: 15vw;
 }
 
 form {
