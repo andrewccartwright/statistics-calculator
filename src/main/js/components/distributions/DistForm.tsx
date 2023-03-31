@@ -3,8 +3,8 @@ import React, { FormEventHandler, SyntheticEvent } from "react";
 import Form from "../Form";
 import { Binomial, Exponential, Geometric, Normal, Poisson} from '../util/DistTypes';
 
-const DistForm = (props: {content: any, setContent: React.Dispatch<React.SetStateAction<any>>, path: string}) => {
-    const { content, setContent, path } = props;
+const DistForm = (props: {content: any, setContent: React.Dispatch<React.SetStateAction<any>>, setResults: React.Dispatch<React.SetStateAction<any>>, path: string}) => {
+    const { content, setContent, setResults, path } = props;
 
     const handleSubmit = (event: SyntheticEvent) => {
         event.preventDefault();
@@ -26,6 +26,7 @@ const DistForm = (props: {content: any, setContent: React.Dispatch<React.SetStat
         axios.post(`/distributions${path}`, content)
             .then((res) => {
                 console.log(res);
+                setResults(res.data);
             })
             .catch((err) => {
                 console.log(err);
