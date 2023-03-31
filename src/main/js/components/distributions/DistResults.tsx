@@ -5,7 +5,7 @@ const DistResults = (props: {response: any}) => {
 
     return (
         <div>
-
+            
         </div>
     )
 }
