@@ -4324,7 +4324,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".sub-links-section {\n  line-height: 6vh;\n  width: fit-content;\n}\n\n.sub-navbar {\n  background-color: rgb(140, 208, 205);\n}\n\na.sub-links, a.sub-links:hover {\n  color: #17252A;\n  text-decoration: none;\n  padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n  line-height: 12vh;\n  width: 60vw;\n}\n\n.links {\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n  justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n  color: white;\n  text-decoration: none;\n}\n\n.navbar-section {\n  height: 12vh;\n  background-color: rgb(57, 174, 169);\n  color: white;\n}\n\n.main-section {\n  background-color: rgb(222, 242, 241);\n  color: rgb(23, 36, 42);\n  height: 88vh;\n  width: 100vw;\n}", "",{"version":3,"sources":["webpack://./src/main/js/css/Navbar.scss","webpack://./src/main/js/css/Home.scss","webpack://./src/main/js/css/App.scss"],"names":[],"mappings":"AAKA;EACI,gBAAA;EACA,kBAAA;ACJJ;;ADOA;EACI,oCAToB;ACKxB;;ADOA;EACI,cAZS;EAaT,qBAAA;EACA,wBAAA;ACJJ;;ADOA;EACI,iBArBK;EAsBL,WAAA;ACJJ;;ADOA;EAEI,iBAAA;EACA,kBAAA;EACA,aAAA;EACA,8BAAA;ACLJ;;ADQA;EACI,YAAA;EACA,qBAAA;ACLJ;;ADQA;EACI,YAvCK;EAwCL,mCAvCe;EAwCf,YAAA;ACLJ;;AChCA;EACI,oCAJc;EAKd,sBAJS;EAKT,YAAA;EACA,YAAA;ADmCJ","sourcesContent":["$height: 12vh;\n$background-color: rgb(57,174,169);\n$dist-background-color: rgb(140, 208, 205);\n$dist-color: #17252A;\n\n.sub-links-section {\n    line-height: calc($height / 2);\n    width: fit-content;\n}\n\n.sub-navbar {\n    background-color: $dist-background-color;\n}\n\na.sub-links, a.sub-links:hover {\n    color: $dist-color;\n    text-decoration: none;\n    padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n    line-height: $height;\n    width: 60vw;\n}\n\n.links {\n    \n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n    color: white;\n    text-decoration: none;\n}\n\n.navbar-section {\n    height: $height;\n    background-color: $background-color;\n    color: white;\n}",".sub-links-section {\n  line-height: 6vh;\n  width: fit-content;\n}\n\n.sub-navbar {\n  background-color: rgb(140, 208, 205);\n}\n\na.sub-links, a.sub-links:hover {\n  color: #17252A;\n  text-decoration: none;\n  padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n  line-height: 12vh;\n  width: 60vw;\n}\n\n.links {\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n  justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n  color: white;\n  text-decoration: none;\n}\n\n.navbar-section {\n  height: 12vh;\n  background-color: rgb(57, 174, 169);\n  color: white;\n}\n\n.main-section {\n  background-color: rgb(222, 242, 241);\n  color: rgb(23, 36, 42);\n  height: 88vh;\n  width: 100vw;\n}","@use 'Navbar';\n$main-background: rgb(222,242,241);\n$main-color: rgb(23,36,42);\n\n.main-section {\n    background-color: $main-background;\n    color: $main-color;\n    height: 100vh - Navbar.$height;\n    width: 100vw;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sub-links-section {\n  line-height: 6vh;\n  width: fit-content;\n}\n\n.sub-navbar {\n  background-color: rgb(140, 208, 205);\n}\n\na.sub-links, a.sub-links:hover {\n  color: #17252A;\n  text-decoration: none;\n  padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n  line-height: 12vh;\n  width: 60vw;\n}\n\n.links {\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n  justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n  color: white;\n  text-decoration: none;\n}\n\n.navbar-section {\n  height: 12vh;\n  background-color: rgb(57, 174, 169);\n  color: white;\n}\n\n.main-section {\n  background-color: rgb(222, 242, 241);\n  color: rgb(23, 36, 42);\n  height: 88vh;\n  width: 100vw;\n}\n\n#home-links-section {\n  width: 40vw;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.home-nav-list {\n  width: fit-content;\n  margin-left: auto;\n  margin-right: auto;\n  list-style-type: none;\n  list-style: none;\n}\n\n.home-links {\n  color: #17252A;\n  text-decoration: none;\n}\n\nh2.title {\n  font-size: 22px;\n}", "",{"version":3,"sources":["webpack://./src/main/js/css/Navbar.scss","webpack://./src/main/js/css/Home.scss","webpack://./src/main/js/css/App.scss"],"names":[],"mappings":"AAKA;EACI,gBAAA;EACA,kBAAA;ACJJ;;ADOA;EACI,oCAToB;ACKxB;;ADOA;EACI,cAZS;EAaT,qBAAA;EACA,wBAAA;ACJJ;;ADOA;EACI,iBArBK;EAsBL,WAAA;ACJJ;;ADOA;EAEI,iBAAA;EACA,kBAAA;EACA,aAAA;EACA,8BAAA;ACLJ;;ADQA;EACI,YAAA;EACA,qBAAA;ACLJ;;ADQA;EACI,YAvCK;EAwCL,mCAvCe;EAwCf,YAAA;ACLJ;;AChCA;EACI,oCAJc;EAKd,sBAJS;EAKT,YAAA;EACA,YAAA;ADmCJ;;AAtCA;EACI,WAJS;EAKT,iBAAA;EACA,kBAAA;AAyCJ;;AAtCA;EACI,kBAAA;EACA,iBAAA;EACA,kBAAA;EACA,qBAAA;EACA,gBAAA;AAyCJ;;AAtCA;EACI,cDjBS;ECkBT,qBAAA;AAyCJ;;AAtCA;EACI,eAtBQ;AA+DZ","sourcesContent":["$height: 12vh;\n$background-color: rgb(57,174,169);\n$dist-background-color: rgb(140, 208, 205);\n$dist-color: #17252A;\n\n.sub-links-section {\n    line-height: calc($height / 2);\n    width: fit-content;\n}\n\n.sub-navbar {\n    background-color: $dist-background-color;\n}\n\na.sub-links, a.sub-links:hover {\n    color: $dist-color;\n    text-decoration: none;\n    padding: 0vw 3vw 0vw 3vw;\n}\n\n.main-navbar {\n    line-height: $height;\n    width: 60vw;\n}\n\n.links {\n    \n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    justify-content: space-between;\n}\n\na.nav-links, a.nav-links:hover {\n    color: white;\n    text-decoration: none;\n}\n\n.navbar-section {\n    height: $height;\n    background-color: $background-color;\n    color: white;\n}","@use 'Navbar';\n@use 'App';\n$home-width: 40vw;\n$font-size: 22px;\n\n#home-links-section {\n    width: $home-width;\n    margin-left: auto;\n    margin-right: auto;\n}\n\n.home-nav-list {\n    width: fit-content;\n    margin-left: auto;\n    margin-right: auto;\n    list-style-type: none;\n    list-style: none;\n}\n\n.home-links {\n    color: Navbar.$dist-color;\n    text-decoration: none;\n}\n\nh2.title {\n    font-size: $font-size;\n}","@use 'Navbar';\n$main-background: rgb(222,242,241);\n$main-color: rgb(23,36,42);\n\n.main-section {\n    background-color: $main-background;\n    color: $main-color;\n    height: 100vh - Navbar.$height;\n    width: 100vw;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40985,10 +40985,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
 /* harmony import */ var _distributions_Distributions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./distributions/Distributions */ "./src/main/js/components/distributions/Distributions.tsx");
-/* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home */ "./src/main/js/components/Home.tsx");
+/* harmony import */ var _home_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home/Home */ "./src/main/js/components/home/Home.tsx");
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navbar */ "./src/main/js/components/Navbar.tsx");
 /* harmony import */ var _scores_Scores__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scores/Scores */ "./src/main/js/components/scores/Scores.tsx");
 /* harmony import */ var _statistics_Statistics__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./statistics/Statistics */ "./src/main/js/components/statistics/Statistics.tsx");
@@ -40999,18 +40998,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var router = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_6__.createHashRouter)((0,react_router_dom__WEBPACK_IMPORTED_MODULE_7__.createRoutesFromElements)(react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null) }),
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "statistics/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_statistics_Statistics__WEBPACK_IMPORTED_MODULE_5__["default"], null) }),
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "distributions/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_distributions_Distributions__WEBPACK_IMPORTED_MODULE_1__["default"], null) }),
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "scores/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_scores_Scores__WEBPACK_IMPORTED_MODULE_4__["default"], null) }))));
 var App = function () {
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "text-center" },
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null),
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Routes, null,
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/statistics/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_statistics_Statistics__WEBPACK_IMPORTED_MODULE_5__["default"], null) }),
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/distributions/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_distributions_Distributions__WEBPACK_IMPORTED_MODULE_1__["default"], null) }),
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, { path: "/scores/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_scores_Scores__WEBPACK_IMPORTED_MODULE_4__["default"], null) }))));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Routes, null,
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, { path: "/", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_home_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null) }),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, { path: "/statistics/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_statistics_Statistics__WEBPACK_IMPORTED_MODULE_5__["default"], null) }),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, { path: "/distributions/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_distributions_Distributions__WEBPACK_IMPORTED_MODULE_1__["default"], null) }),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, { path: "/scores/*", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_scores_Scores__WEBPACK_IMPORTED_MODULE_4__["default"], null) }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
@@ -41027,11 +41022,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/lib/axios.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
+
 var Form = function (props) {
-    var content = props.content, handleSubmit = props.handleSubmit;
+    var content = props.content, setContent = props.setContent, setResults = props.setResults, path = props.path;
+    var handleSubmit = function (event) {
+        event.preventDefault();
+        var target = event.target;
+        var inputs = Array.from(target.getElementsByTagName('input'));
+        var values = inputs.map(function (input) {
+            return Number(input.value);
+        });
+        var tempContent = content;
+        Object.keys(content).map(function (item, index) {
+            tempContent[item] = values[index];
+        });
+        setContent(tempContent);
+        axios__WEBPACK_IMPORTED_MODULE_1__["default"].post("".concat(path), content)
+            .then(function (res) {
+            setResults(res.data);
+        })
+            .catch(function (err) {
+            console.log(err);
+        });
+    };
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", { onSubmit: handleSubmit, method: "post" },
         Object.keys(content).map(function (item) {
             if (item == "includesSuccess") {
@@ -41049,16 +41066,16 @@ var Form = function (props) {
                     ":"),
                 react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", { name: "".concat(item, "-input"), type: "number", className: "form-input", min: 0, max: item == "p" ? 1 : null, step: ".01", required: true })));
         }),
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { className: "btn btn-primary" }, "Submit")));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { className: "submit-btn" }, "Submit")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Form);
 
 
 /***/ }),
 
-/***/ "./src/main/js/components/Home.tsx":
+/***/ "./src/main/js/components/Item.tsx":
 /*!*****************************************!*\
-  !*** ./src/main/js/components/Home.tsx ***!
+  !*** ./src/main/js/components/Item.tsx ***!
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -41068,14 +41085,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _css_Home_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/Home.scss */ "./src/main/js/css/Home.scss");
+/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Form */ "./src/main/js/components/Form.tsx");
+/* harmony import */ var _Results__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Results */ "./src/main/js/components/Results.tsx");
 
 
-var Home = function () {
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { id: 'home-section', className: "main-section" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Hello")));
+
+var Item = function (props) {
+    var content = props.content, setContent = props.setContent, results = props.results, setResults = props.setResults, path = props.path, section = props.section;
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Form__WEBPACK_IMPORTED_MODULE_1__["default"], { content: content, setContent: setContent, setResults: setResults, path: "/".concat(section).concat(path) }),
+        results && react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Results__WEBPACK_IMPORTED_MODULE_2__["default"], { results: results })));
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Item);
 
 
 /***/ }),
@@ -41201,131 +41222,6 @@ var SubNavbar = function (props) {
 
 /***/ }),
 
-/***/ "./src/main/js/components/distributions/DistForm.tsx":
-/*!***********************************************************!*\
-  !*** ./src/main/js/components/distributions/DistForm.tsx ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/lib/axios.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Form */ "./src/main/js/components/Form.tsx");
-
-
-
-var DistForm = function (props) {
-    var content = props.content, setContent = props.setContent, setResults = props.setResults, path = props.path;
-    var handleSubmit = function (event) {
-        event.preventDefault();
-        var target = event.target;
-        var inputs = Array.from(target.getElementsByTagName('input'));
-        var values = inputs.map(function (input) {
-            return Number(input.value);
-        });
-        var tempContent = content;
-        Object.keys(content).map(function (item, index) {
-            tempContent[item] = values[index];
-        });
-        setContent(tempContent);
-        axios__WEBPACK_IMPORTED_MODULE_2__["default"].post("/distributions".concat(path), content)
-            .then(function (res) {
-            setResults(res.data);
-        })
-            .catch(function (err) {
-            console.log(err);
-        });
-    };
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Form__WEBPACK_IMPORTED_MODULE_1__["default"], { content: content, setContent: setContent, handleSubmit: handleSubmit })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DistForm);
-
-
-/***/ }),
-
-/***/ "./src/main/js/components/distributions/DistItem.tsx":
-/*!***********************************************************!*\
-  !*** ./src/main/js/components/distributions/DistItem.tsx ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _DistForm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DistForm */ "./src/main/js/components/distributions/DistForm.tsx");
-/* harmony import */ var _DistResults__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DistResults */ "./src/main/js/components/distributions/DistResults.tsx");
-
-
-
-var DistItem = function (props) {
-    var content = props.content, setContent = props.setContent, results = props.results, setResults = props.setResults, path = props.path;
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistForm__WEBPACK_IMPORTED_MODULE_1__["default"], { content: content, setContent: setContent, setResults: setResults, path: path }),
-        results && react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistResults__WEBPACK_IMPORTED_MODULE_2__["default"], { results: results })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DistItem);
-
-
-/***/ }),
-
-/***/ "./src/main/js/components/distributions/DistNavbar.tsx":
-/*!*************************************************************!*\
-  !*** ./src/main/js/components/distributions/DistNavbar.tsx ***!
-  \*************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _SubNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SubNavbar */ "./src/main/js/components/SubNavbar.tsx");
-
-
-var DistNavbar = function (props) {
-    var types = ["Binomial", "Exponential", "Geometric", "Normal", "Poisson"];
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { id: "dist-navbar" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { section: "distributions", types: types, setResults: props.setResults })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DistNavbar);
-
-
-/***/ }),
-
-/***/ "./src/main/js/components/distributions/DistResults.tsx":
-/*!**************************************************************!*\
-  !*** ./src/main/js/components/distributions/DistResults.tsx ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Results__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Results */ "./src/main/js/components/Results.tsx");
-
-
-var DistResults = function (props) {
-    var results = props.results;
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Results__WEBPACK_IMPORTED_MODULE_1__["default"], { results: results })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DistResults);
-
-
-/***/ }),
-
 /***/ "./src/main/js/components/distributions/Distributions.tsx":
 /*!****************************************************************!*\
   !*** ./src/main/js/components/distributions/Distributions.tsx ***!
@@ -41339,9 +41235,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
-/* harmony import */ var _DistNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DistNavbar */ "./src/main/js/components/distributions/DistNavbar.tsx");
-/* harmony import */ var _util_DefaultValues__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/DefaultValues */ "./src/main/js/components/util/DefaultValues.tsx");
-/* harmony import */ var _DistItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./DistItem */ "./src/main/js/components/distributions/DistItem.tsx");
+/* harmony import */ var _util_DistDefaultValues__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/DistDefaultValues */ "./src/main/js/components/util/DistDefaultValues.tsx");
+/* harmony import */ var _Item__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Item */ "./src/main/js/components/Item.tsx");
+/* harmony import */ var _SubNavbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SubNavbar */ "./src/main/js/components/SubNavbar.tsx");
 
 
 
@@ -41350,13 +41246,151 @@ __webpack_require__.r(__webpack_exports__);
 var Distributions = function () {
     var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), content = _a[0], setContent = _a[1];
     var _b = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), results = _b[0], setResults = _b[1];
+    var types = ["Binomial", "Exponential", "Geometric", "Normal", "Poisson"];
+    var section = "distributions";
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "main-section" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { setResults: setResults }),
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Routes, null, _util_DefaultValues__WEBPACK_IMPORTED_MODULE_2__.distArray.map(function (distItem) {
-            return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { path: distItem["path"], key: distItem["path"], element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_DistItem__WEBPACK_IMPORTED_MODULE_3__["default"], { content: distItem['defaultValue'], setContent: setContent, results: results, setResults: setResults, path: distItem["path"] }) });
-        }))));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_3__["default"], { section: section, types: types, setResults: setResults }),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Routes, null,
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { path: "/", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Navigate, { replace: true, to: "/distributions/binomial" }) }),
+            _util_DistDefaultValues__WEBPACK_IMPORTED_MODULE_1__.distArray.map(function (distItem) {
+                return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { path: distItem["path"], key: distItem["path"], element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Item__WEBPACK_IMPORTED_MODULE_2__["default"], { content: distItem['defaultValue'], setContent: setContent, results: results, setResults: setResults, path: distItem["path"], section: section }) });
+            }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Distributions);
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/home/Home.tsx":
+/*!**********************************************!*\
+  !*** ./src/main/js/components/home/Home.tsx ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_Home_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/Home.scss */ "./src/main/js/css/Home.scss");
+/* harmony import */ var _Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Title */ "./src/main/js/components/home/Title.tsx");
+/* harmony import */ var _ListItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ListItem */ "./src/main/js/components/home/ListItem.tsx");
+
+
+
+
+var sections = [
+    {
+        "title": "Summary Statistics",
+        "links": [
+            {
+                "to": "/statistics",
+                "name": "One-Variable Summary Statistics"
+            }
+        ]
+    },
+    {
+        "title": "Distributions",
+        "links": [
+            {
+                "to": "/distributions/binomial",
+                "name": "Binomial"
+            },
+            {
+                "to": "/distributions/exponential",
+                "name": "Exponential"
+            },
+            {
+                "to": "/distributions/geometric",
+                "name": "Geometric"
+            },
+            {
+                "to": "/distributions/normal",
+                "name": "Normal"
+            },
+            {
+                "to": "/distributions/poisson",
+                "name": "Poisson"
+            }
+        ]
+    },
+    {
+        "title": "Scores",
+        "links": [
+            {
+                "to": "/scores/z_score",
+                "name": "Z Score"
+            },
+            {
+                "to": "/scores/t_score",
+                "name": "T Score"
+            }
+        ]
+    }
+];
+var Home = function () {
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { id: 'home-section', className: "main-section" },
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { id: 'home-links-section' }, sections.map(function (section) {
+            return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { key: section.title },
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Title__WEBPACK_IMPORTED_MODULE_2__["default"], { title: section.title }),
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null),
+                section.links.map(function (link) {
+                    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { key: link.name },
+                        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ListItem__WEBPACK_IMPORTED_MODULE_3__["default"], { to: link.to, name: link.name })));
+                })));
+        }))));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/home/ListItem.tsx":
+/*!**************************************************!*\
+  !*** ./src/main/js/components/home/ListItem.tsx ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+
+
+var ListItem = function (props) {
+    var to = props.to, name = props.name;
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", { className: "home-nav-list" },
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: to, className: "home-links" }, name)),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ListItem);
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/home/Title.tsx":
+/*!***********************************************!*\
+  !*** ./src/main/js/components/home/Title.tsx ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var Title = function (props) {
+    var title = props.title;
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", { className: "title" }, title));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Title);
 
 
 /***/ }),
@@ -41373,39 +41407,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _ScoresNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ScoresNavbar */ "./src/main/js/components/scores/ScoresNavbar.tsx");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
+/* harmony import */ var _SubNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SubNavbar */ "./src/main/js/components/SubNavbar.tsx");
+/* harmony import */ var _util_ScoreDefaultValues__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/ScoreDefaultValues */ "./src/main/js/components/util/ScoreDefaultValues.tsx");
+/* harmony import */ var _Item__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Item */ "./src/main/js/components/Item.tsx");
+
+
+
 
 
 var Scores = function () {
+    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), content = _a[0], setContent = _a[1];
+    var _b = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(), results = _b[0], setResults = _b[1];
+    var types = ["T Score", "Z Score"];
+    var section = "scores";
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "main-section" },
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ScoresNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], null)));
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { section: section, types: types, setResults: setResults }),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Routes, null,
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { path: "/", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Navigate, { replace: true, to: "/scores/t score" }) }),
+            _util_ScoreDefaultValues__WEBPACK_IMPORTED_MODULE_2__.scoreArray.map(function (scoreItem) {
+                return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { path: scoreItem["path"], key: scoreItem["path"], element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Item__WEBPACK_IMPORTED_MODULE_3__["default"], { content: scoreItem['defaultValue'], setContent: setContent, results: results, setResults: setResults, path: scoreItem["path"], section: section }) });
+            }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Scores);
-
-
-/***/ }),
-
-/***/ "./src/main/js/components/scores/ScoresNavbar.tsx":
-/*!********************************************************!*\
-  !*** ./src/main/js/components/scores/ScoresNavbar.tsx ***!
-  \********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _SubNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SubNavbar */ "./src/main/js/components/SubNavbar.tsx");
-
-
-var ScoresNavbar = function () {
-    var types = ["T Score", "Z Score"];
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SubNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], { section: "scores", types: types, setResults: null })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ScoresNavbar);
 
 
 /***/ }),
@@ -41447,11 +41471,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/lib/axios.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/lib/axios.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _css_Form_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/Form.scss */ "./src/main/js/css/Form.scss");
 /* harmony import */ var _Results__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Results */ "./src/main/js/components/Results.tsx");
+/* harmony import */ var _home_Title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../home/Title */ "./src/main/js/components/home/Title.tsx");
+
 
 
 
@@ -41469,7 +41495,7 @@ var SummaryStatsForm = function () {
             var payload = {
                 "numbers": numbers_1
             };
-            axios__WEBPACK_IMPORTED_MODULE_3__["default"].post("/summary_statistics", payload)
+            axios__WEBPACK_IMPORTED_MODULE_4__["default"].post("/summary_statistics", payload)
                 .then(function (res) {
                 console.log(res);
                 setResults(res.data);
@@ -41498,7 +41524,7 @@ var SummaryStatsForm = function () {
         }
     };
     return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Summary Stats"),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_home_Title__WEBPACK_IMPORTED_MODULE_3__["default"], { title: "Summary Statistics" }),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", { onSubmit: handleSubmit },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: "stats-form-item" },
                 react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", { htmlFor: "values-box" }, "Enter a comma-separated list of values"),
@@ -41511,10 +41537,10 @@ var SummaryStatsForm = function () {
 
 /***/ }),
 
-/***/ "./src/main/js/components/util/DefaultValues.tsx":
-/*!*******************************************************!*\
-  !*** ./src/main/js/components/util/DefaultValues.tsx ***!
-  \*******************************************************/
+/***/ "./src/main/js/components/util/DistDefaultValues.tsx":
+/*!***********************************************************!*\
+  !*** ./src/main/js/components/util/DistDefaultValues.tsx ***!
+  \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -41565,6 +41591,42 @@ var distArray = [
     {
         "defaultValue": defaultPoisson,
         "path": "/poisson"
+    }
+];
+
+
+
+/***/ }),
+
+/***/ "./src/main/js/components/util/ScoreDefaultValues.tsx":
+/*!************************************************************!*\
+  !*** ./src/main/js/components/util/ScoreDefaultValues.tsx ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "scoreArray": () => (/* binding */ scoreArray)
+/* harmony export */ });
+var defaultZScore = {
+    "x": null,
+    "popMean": null,
+    "popStDev": null
+};
+var defaultTScore = {
+    "sampleMean": null,
+    "popMean": null,
+    "sampleStDev": null,
+    "sampleSize": null
+};
+var scoreArray = [
+    {
+        "defaultValue": defaultZScore,
+        "path": "/z score"
+    },
+    {
+        "defaultValue": defaultTScore,
+        "path": "/t score"
     }
 ];
 

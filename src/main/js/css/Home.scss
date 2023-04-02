@@ -1,3 +1,27 @@
 @use 'Navbar';
 @use 'App';
+$home-width: 40vw;
+$font-size: 22px;
 
+#home-links-section {
+    width: $home-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-nav-list {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    list-style: none;
+}
+
+.home-links {
+    color: Navbar.$dist-color;
+    text-decoration: none;
+}
+
+h2.title {
+    font-size: $font-size;
+}
