@@ -1,7 +1,34 @@
-import React, { FormEventHandler, useEffect, useState } from "react";
+import axios from "axios";
+import React, { SyntheticEvent } from "react";
 
-const Form = (props: {content: any, setContent: React.Dispatch<React.SetStateAction<any>>, handleSubmit: FormEventHandler<HTMLFormElement> }) => {
-    const { content, handleSubmit } = props;
+const Form = (props: {content: any, setContent: React.Dispatch<React.SetStateAction<any>>, setResults: React.Dispatch<React.SetStateAction<any>>, path: string}) => {
+    const { content, setContent, setResults, path } = props;
+
+    const handleSubmit = (event: SyntheticEvent) => {
+        event.preventDefault();
+        const target = event.target as HTMLFormElement;
+
+        const inputs = Array.from(target.getElementsByTagName('input'));
+        const values = inputs.map((input) => {
+            return Number(input.value);
+        });
+
+        const tempContent = content;
+
+        Object.keys(content).map((item, index) => {
+            tempContent[item] = values[index];
+        });
+
+        setContent(tempContent);
+
+        axios.post(`${path}`, content)
+            .then((res) => {
+                setResults(res.data);
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+    }
 
     return (
         <form onSubmit={handleSubmit} method="post">
@@ -26,7 +53,7 @@ const Form = (props: {content: any, setContent: React.Dispatch<React.SetStateAct
                 })
             }
 
-            <button className="btn btn-primary">Submit</button>
+            <button className="submit-btn">Submit</button>
         </form>
     )
 }

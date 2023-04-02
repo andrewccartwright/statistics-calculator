@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { SyntheticEvent, useEffect, useState } from "react";
 import '../../css/Form.scss';
 import Results from "../Results";
+import Title from "../home/Title";
 
 type SummaryStats = {
     [index: string]: number,
@@ -71,7 +72,7 @@ const SummaryStatsForm = () => {
 
     return (
         <div>
-            <h1>Summary Stats</h1>
+            <Title title={"Summary Statistics"} />
             <form onSubmit={handleSubmit}>
                 <div className="stats-form-item">
                     <label htmlFor="values-box">Enter a comma-separated list of values</label>
