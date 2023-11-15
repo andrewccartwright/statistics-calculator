@@ -34,6 +34,7 @@
 <style>
  #output {
    width: 60vw;
+   margin-top: 5vh;
    margin-left: auto;
    margin-right: auto;
  }
